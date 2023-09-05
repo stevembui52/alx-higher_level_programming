@@ -9,6 +9,7 @@ def fizzbuzz():
 	    continue
         elif i % 15 == 0:
 	    print("FizzBuzz", end = " ")
-	    continue
+	else:
+	    print('{:d}'.format(i), end=' ')
 
 
