@@ -4,6 +4,6 @@ Class Rectangle: Defines a Rectangle
 """
 
 
-class Rectanle:
-    """ empty class Rectangle that defines a rectangle """
+class Rectangle:
+    """Empty class of Rectangle"""
     pass
