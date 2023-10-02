@@ -5,8 +5,9 @@ Class Rectangle: Defines a Rectangle
 
 
 class Rectangle:
-    """ class that defines a Rectangle with attributes """
+    """ class that defines a Rectangle with attributes and public methods"""
     def __init__(self, width=0, height=0):
+        """ Initializes instances """
         self.width = width
         self.height = height
 
@@ -38,13 +39,12 @@ class Rectangle:
             raise ValueError("height must be >= 0")
         self.__height = value
 
-	def area(self):
-	    """ calculates the area of the rectamgle """
-	    return (self.__height * self.__width)
-	
-	def perimeter(self):
-		""" calculates perimeter of the rectangle """
-		if (self.__width == 0) or (self.__height == 0):
-			return 0
-		else:
-			return ((self.__height * 2) + (self.__width * 2))
+    def area(self):
+        """ Public instance method that returns the rectangle area """
+        return (self.__height * self.__width)
+
+    def perimeter(self):
+        """ Public instance method that returns the rectangle perimeter """
+        if (self.__width == 0 or self.__height == 0):
+            return (0)
+        return (2 * (self.__width + self.__height))
