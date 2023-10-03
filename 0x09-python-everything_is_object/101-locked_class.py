@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 """
-Class lockedclass defines a locked class
+Locked Class
 """
+
+
 class LockedClass:
-    """ Allow setting the attribute if it's 'first_name' """
-     __slots__ = ['first_name']
+    """ Prevent user to create new attributes """
+    __slots__ = ['first_name']
 
     def __init__(self, first_n=""):
         self.first_name = first_n
