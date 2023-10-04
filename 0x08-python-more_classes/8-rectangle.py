@@ -24,7 +24,7 @@ class Rectangle:
     @width.setter
     def width(self, value):
         """set passsed private attribue of width"""
-        if not(isinstance(value, int)):
+        if not (isinstance(value, int)):
             raise TypeError("width must be an integer")
         elif (value < 0):
             raise TypeError("width must be >= 0")
@@ -38,7 +38,7 @@ class Rectangle:
     @height.setter
     def height(self, value):
         """set passsed private attribue of width"""
-        if not(isinstance(value, int)):
+        if not (isinstance(value, int)):
             raise TypeError("height must be an integer")
         elif (value < 0):
             raise TypeError("height must be >= 0")
