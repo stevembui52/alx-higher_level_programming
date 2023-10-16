@@ -35,7 +35,7 @@ class Square(Rectangle):
         self.width = value
         self.height = value
 
-     def update(self, *args, **kwargs):
+    def update(self, *args, **kwargs):
         """Method that assigns an argument to each attribute"""
         listAttri = ["id", "size", "x", "y"]
         if (args is not None and len(args) != 0):

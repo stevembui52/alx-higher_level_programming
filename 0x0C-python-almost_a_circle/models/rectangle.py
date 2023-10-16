@@ -88,7 +88,7 @@ class Rectangle(Base):
                 print("#", end="")
             print()
 
-     def __str__(self):
+    def __str__(self):
         """Overriding the __str__ method that returns a custom string"""
         mssg = "[Rectangle] ({:d}) {:d}/{:d} - {:d}/{:d}"\
             .format(self.id, self.x, self.y, self.width, self.height)
