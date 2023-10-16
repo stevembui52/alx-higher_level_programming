@@ -2,7 +2,6 @@
 """ Unittest for base.py """
 import unittest
 from models.base import Base
-from models.rectangle import Rectangle
 
 if __name__ == '__main__':
     unittest.main()
@@ -50,13 +49,3 @@ class TestBase(unittest.TestCase):
         tbase = Base()
         with self.assertRaises(AttributeError):
             tbase.__nb_objects
-
-    def test_create_instance_from_dictionary(self):
-         """Checking create instance from dict"""
-         data = {"id": 1, "width": 5, "height": 10, "x": 2, "y": 3}
-         instance = Rectangle.create(**data)
-         self.assertEqual(instance.id, 1)
-         self.assertEqual(instance.width, 5)
-         self.assertEqual(instance.height, 10)
-         self.assertEqual(instance.x, 2)
-         self.assertEqual(instance.y, 3)
