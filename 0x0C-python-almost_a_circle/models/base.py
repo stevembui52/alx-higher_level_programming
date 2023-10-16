@@ -2,10 +2,10 @@
 """
 Base class of all other classes in this project
 """
-
 import json
 import os
 import csv
+
 
 class Base:
     """
