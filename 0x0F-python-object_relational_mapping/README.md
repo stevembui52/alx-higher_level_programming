@@ -3,7 +3,7 @@
 
 ## General
 
-Concepts to learn in this project about: 0x0F. Python - Object-relational mapping and modules MySQLdb version 1.3.x and SQLAlchemy version 1.2.x
+Concepts to learn in this project about: 0x0F. Python - Object-relational mapping and modules MySQLdb version 2.0.x and SQLAlchemy version 1.4.x
 
 - Why Python programming is awesome (don’t forget to tweet today, with the hashtag #pythoniscool :))
 - How to connect to a MySQL database from a Python script
